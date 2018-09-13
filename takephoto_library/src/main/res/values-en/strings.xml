@@ -3,7 +3,7 @@
     <string name="tip_type_not_image">Choose not pictures</string>
     <string name="tip_no_camera">No camera</string>
     <string name="tip_tips">Tips</string>
-    <string name="tip_compress">Being compressed...</string>
+    <string name="tip_compress">compressed...</string>
     <string name="tip_compress_failed">"%1$s Picture compression failure:%2$s picturePath:%3$s"</string>
     <string name="msg_crop_failed">"There are pictures of crop failures."</string>
     <string name="msg_compress_failed">"There are pictures of compress failures."</string>

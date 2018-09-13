@@ -220,8 +220,9 @@ public class TUtils {
         if (progressTitle != null && progressTitle.length > 0) {
             title = progressTitle[0];
         }
-        ProgressDialog progressDialog = new ProgressDialog(activity);
+        ProgressDialog progressDialog = new ProgressDialog(activity, ProgressDialog.THEME_HOLO_DARK);
         progressDialog.setTitle(title);
+        progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         progressDialog.setCancelable(false);
         progressDialog.show();
         return progressDialog;
